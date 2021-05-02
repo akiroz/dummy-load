@@ -11432,21 +11432,21 @@ Source: 3M</description>
 <instance part="P+9" gate="VCC" x="40.64" y="-53.34" smashed="yes">
 <attribute name="VALUE" x="43.18" y="-50.8" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="H1" gate="G$1" x="33.02" y="-17.78" smashed="yes">
-<attribute name="NAME" x="35.052" y="-17.1958" size="1.778" layer="95"/>
-<attribute name="VALUE" x="35.052" y="-20.2438" size="1.778" layer="96"/>
+<instance part="H1" gate="G$1" x="40.64" y="-17.78" smashed="yes">
+<attribute name="NAME" x="42.672" y="-17.1958" size="1.778" layer="95"/>
+<attribute name="VALUE" x="42.672" y="-20.2438" size="1.778" layer="96"/>
 </instance>
-<instance part="H2" gate="G$1" x="33.02" y="-25.4" smashed="yes">
-<attribute name="NAME" x="35.052" y="-24.8158" size="1.778" layer="95"/>
-<attribute name="VALUE" x="35.052" y="-27.8638" size="1.778" layer="96"/>
+<instance part="H2" gate="G$1" x="40.64" y="-25.4" smashed="yes">
+<attribute name="NAME" x="42.672" y="-24.8158" size="1.778" layer="95"/>
+<attribute name="VALUE" x="42.672" y="-27.8638" size="1.778" layer="96"/>
 </instance>
-<instance part="H3" gate="G$1" x="33.02" y="-33.02" smashed="yes">
-<attribute name="NAME" x="35.052" y="-32.4358" size="1.778" layer="95"/>
-<attribute name="VALUE" x="35.052" y="-35.4838" size="1.778" layer="96"/>
+<instance part="H3" gate="G$1" x="40.64" y="-33.02" smashed="yes">
+<attribute name="NAME" x="42.672" y="-32.4358" size="1.778" layer="95"/>
+<attribute name="VALUE" x="42.672" y="-35.4838" size="1.778" layer="96"/>
 </instance>
-<instance part="H4" gate="G$1" x="33.02" y="-40.64" smashed="yes">
-<attribute name="NAME" x="35.052" y="-40.0558" size="1.778" layer="95"/>
-<attribute name="VALUE" x="35.052" y="-43.1038" size="1.778" layer="96"/>
+<instance part="H4" gate="G$1" x="40.64" y="-40.64" smashed="yes">
+<attribute name="NAME" x="42.672" y="-40.0558" size="1.778" layer="95"/>
+<attribute name="VALUE" x="42.672" y="-43.1038" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11896,9 +11896,9 @@ Source: 3M</description>
 <label x="-7.62" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-5" pin="KL"/>
-<wire x1="22.86" y1="-27.94" x2="15.24" y2="-27.94" width="0.1524" layer="91"/>
-<label x="20.32" y="-27.94" size="1.778" layer="95"/>
+<pinref part="X1" gate="-12" pin="KL"/>
+<wire x1="20.32" y1="-45.72" x2="15.24" y2="-45.72" width="0.1524" layer="91"/>
+<label x="17.78" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -11935,9 +11935,9 @@ Source: 3M</description>
 <junction x="45.72" y="109.22"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-9" pin="KL"/>
-<wire x1="22.86" y1="-38.1" x2="15.24" y2="-38.1" width="0.1524" layer="91"/>
-<label x="20.32" y="-38.1" size="1.778" layer="95"/>
+<pinref part="X1" gate="-1" pin="KL"/>
+<wire x1="15.24" y1="-17.78" x2="20.32" y2="-17.78" width="0.1524" layer="91"/>
+<label x="17.78" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSET" class="0">
@@ -12071,9 +12071,9 @@ Source: 3M</description>
 <label x="71.12" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-6" pin="KL"/>
-<wire x1="15.24" y1="-30.48" x2="22.86" y2="-30.48" width="0.1524" layer="91"/>
-<label x="20.32" y="-30.48" size="1.778" layer="95"/>
+<pinref part="X1" gate="-11" pin="KL"/>
+<wire x1="20.32" y1="-43.18" x2="15.24" y2="-43.18" width="0.1524" layer="91"/>
+<label x="17.78" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -12123,9 +12123,9 @@ Source: 3M</description>
 <label x="149.86" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-7" pin="KL"/>
-<wire x1="22.86" y1="-33.02" x2="15.24" y2="-33.02" width="0.1524" layer="91"/>
-<label x="20.32" y="-33.02" size="1.778" layer="95"/>
+<pinref part="X1" gate="-10" pin="KL"/>
+<wire x1="20.32" y1="-40.64" x2="15.24" y2="-40.64" width="0.1524" layer="91"/>
+<label x="17.78" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -12175,9 +12175,9 @@ Source: 3M</description>
 <label x="228.6" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-8" pin="KL"/>
-<wire x1="15.24" y1="-35.56" x2="22.86" y2="-35.56" width="0.1524" layer="91"/>
-<label x="20.32" y="-35.56" size="1.778" layer="95"/>
+<pinref part="X1" gate="-9" pin="KL"/>
+<wire x1="15.24" y1="-38.1" x2="20.32" y2="-38.1" width="0.1524" layer="91"/>
+<label x="17.78" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -12227,9 +12227,9 @@ Source: 3M</description>
 <label x="-7.62" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="KL"/>
-<wire x1="15.24" y1="-17.78" x2="22.86" y2="-17.78" width="0.1524" layer="91"/>
-<label x="20.32" y="-17.78" size="1.778" layer="95"/>
+<pinref part="X1" gate="-5" pin="KL"/>
+<wire x1="15.24" y1="-27.94" x2="20.32" y2="-27.94" width="0.1524" layer="91"/>
+<label x="17.78" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -12279,9 +12279,9 @@ Source: 3M</description>
 <label x="71.12" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-2" pin="KL"/>
-<wire x1="15.24" y1="-20.32" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
-<label x="20.32" y="-20.32" size="1.778" layer="95"/>
+<pinref part="X1" gate="-6" pin="KL"/>
+<wire x1="20.32" y1="-30.48" x2="15.24" y2="-30.48" width="0.1524" layer="91"/>
+<label x="17.78" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -12331,9 +12331,9 @@ Source: 3M</description>
 <label x="149.86" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-3" pin="KL"/>
-<wire x1="22.86" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="91"/>
-<label x="20.32" y="-22.86" size="1.778" layer="95"/>
+<pinref part="X1" gate="-7" pin="KL"/>
+<wire x1="15.24" y1="-33.02" x2="20.32" y2="-33.02" width="0.1524" layer="91"/>
+<label x="17.78" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -12383,9 +12383,9 @@ Source: 3M</description>
 <label x="228.6" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-4" pin="KL"/>
-<wire x1="15.24" y1="-25.4" x2="22.86" y2="-25.4" width="0.1524" layer="91"/>
-<label x="20.32" y="-25.4" size="1.778" layer="95"/>
+<pinref part="X1" gate="-8" pin="KL"/>
+<wire x1="20.32" y1="-35.56" x2="15.24" y2="-35.56" width="0.1524" layer="91"/>
+<label x="17.78" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -12422,9 +12422,9 @@ Source: 3M</description>
 <junction x="124.46" y="109.22"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-10" pin="KL"/>
-<wire x1="15.24" y1="-40.64" x2="22.86" y2="-40.64" width="0.1524" layer="91"/>
-<label x="20.32" y="-40.64" size="1.778" layer="95"/>
+<pinref part="X1" gate="-2" pin="KL"/>
+<wire x1="15.24" y1="-20.32" x2="20.32" y2="-20.32" width="0.1524" layer="91"/>
+<label x="17.78" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -12439,9 +12439,9 @@ Source: 3M</description>
 <junction x="203.2" y="109.22"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-11" pin="KL"/>
-<wire x1="22.86" y1="-43.18" x2="15.24" y2="-43.18" width="0.1524" layer="91"/>
-<label x="20.32" y="-43.18" size="1.778" layer="95"/>
+<pinref part="X1" gate="-3" pin="KL"/>
+<wire x1="15.24" y1="-22.86" x2="20.32" y2="-22.86" width="0.1524" layer="91"/>
+<label x="17.78" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -12456,9 +12456,9 @@ Source: 3M</description>
 <junction x="281.94" y="109.22"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-12" pin="KL"/>
-<wire x1="15.24" y1="-45.72" x2="22.86" y2="-45.72" width="0.1524" layer="91"/>
-<label x="20.32" y="-45.72" size="1.778" layer="95"/>
+<pinref part="X1" gate="-4" pin="KL"/>
+<wire x1="20.32" y1="-25.4" x2="15.24" y2="-25.4" width="0.1524" layer="91"/>
+<label x="17.78" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -12473,9 +12473,9 @@ Source: 3M</description>
 <junction x="45.72" y="35.56"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-13" pin="KL"/>
-<wire x1="22.86" y1="-48.26" x2="15.24" y2="-48.26" width="0.1524" layer="91"/>
-<label x="20.32" y="-48.26" size="1.778" layer="95"/>
+<pinref part="X1" gate="-16" pin="KL"/>
+<wire x1="20.32" y1="-55.88" x2="15.24" y2="-55.88" width="0.1524" layer="91"/>
+<label x="17.78" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A6" class="0">
@@ -12490,9 +12490,9 @@ Source: 3M</description>
 <junction x="124.46" y="35.56"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-14" pin="KL"/>
-<wire x1="15.24" y1="-50.8" x2="22.86" y2="-50.8" width="0.1524" layer="91"/>
-<label x="20.32" y="-50.8" size="1.778" layer="95"/>
+<pinref part="X1" gate="-15" pin="KL"/>
+<wire x1="20.32" y1="-53.34" x2="15.24" y2="-53.34" width="0.1524" layer="91"/>
+<label x="17.78" y="-53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A7" class="0">
@@ -12507,9 +12507,9 @@ Source: 3M</description>
 <junction x="203.2" y="35.56"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-15" pin="KL"/>
-<wire x1="22.86" y1="-53.34" x2="15.24" y2="-53.34" width="0.1524" layer="91"/>
-<label x="20.32" y="-53.34" size="1.778" layer="95"/>
+<pinref part="X1" gate="-14" pin="KL"/>
+<wire x1="20.32" y1="-50.8" x2="15.24" y2="-50.8" width="0.1524" layer="91"/>
+<label x="17.78" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A8" class="0">
@@ -12524,9 +12524,9 @@ Source: 3M</description>
 <junction x="281.94" y="35.56"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-16" pin="KL"/>
-<wire x1="15.24" y1="-55.88" x2="22.86" y2="-55.88" width="0.1524" layer="91"/>
-<label x="20.32" y="-55.88" size="1.778" layer="95"/>
+<pinref part="X1" gate="-13" pin="KL"/>
+<wire x1="20.32" y1="-48.26" x2="15.24" y2="-48.26" width="0.1524" layer="91"/>
+<label x="17.78" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
