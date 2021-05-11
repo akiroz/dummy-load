@@ -146,6 +146,16 @@
 <smd name="5" x="1.145" y="0" dx="1.61" dy="0.59" layer="1" roundness="25" rot="R180"/>
 <smd name="6" x="1.145" y="0.95" dx="1.61" dy="0.59" layer="1" roundness="25" rot="R180"/>
 </package>
+<package name="XT60M-H">
+<pad name="+" x="7.2" y="0" drill="4.6" shape="square"/>
+<pad name="-" x="0" y="0" drill="4.6" shape="octagon"/>
+<pad name="NC@1" x="-3.2" y="6" drill="1.6"/>
+<pad name="NC@2" x="10.4" y="6" drill="1.6"/>
+<wire x1="-4.2" y1="-3.4" x2="-4.2" y2="14.8" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="14.8" x2="11.4" y2="14.8" width="0.127" layer="21"/>
+<wire x1="11.4" y1="14.8" x2="11.4" y2="-3.4" width="0.127" layer="21"/>
+<wire x1="11.4" y1="-3.4" x2="-4.2" y2="-3.4" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NPN-DAR">
@@ -215,6 +225,16 @@
 <pin name="A0" x="-17.78" y="0" length="middle" direction="in"/>
 <pin name="SCL" x="-17.78" y="-5.08" length="middle" direction="in" function="clk"/>
 <pin name="SDA" x="-17.78" y="-10.16" length="middle"/>
+</symbol>
+<symbol name="P02">
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.81" x2="5.08" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pin" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -291,6 +311,22 @@
 <attribute name="PRICE" value="None"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/MCP4725A0T-E/CH/?ref=eda"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XT60M-H" prefix="P">
+<gates>
+<gate name="G$1" symbol="P02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XT60M-H">
+<connects>
+<connect gate="G$1" pin="1" pad="+"/>
+<connect gate="G$1" pin="2" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -10942,6 +10978,9 @@ Source: 3M</description>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.6" package3d_urn="urn:adsk.eagle:package:14272/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.6" package3d_urn="urn:adsk.eagle:package:14272/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.6" package3d_urn="urn:adsk.eagle:package:14272/1"/>
+<part name="P1" library="dummy-load" deviceset="XT60M-H" device=""/>
+<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="AGND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11432,21 +11471,31 @@ Source: 3M</description>
 <instance part="P+9" gate="VCC" x="40.64" y="-53.34" smashed="yes">
 <attribute name="VALUE" x="43.18" y="-50.8" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="H1" gate="G$1" x="40.64" y="-17.78" smashed="yes">
-<attribute name="NAME" x="42.672" y="-17.1958" size="1.778" layer="95"/>
-<attribute name="VALUE" x="42.672" y="-20.2438" size="1.778" layer="96"/>
+<instance part="H1" gate="G$1" x="205.74" y="-40.64" smashed="yes">
+<attribute name="NAME" x="207.772" y="-40.0558" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.772" y="-43.1038" size="1.778" layer="96"/>
 </instance>
-<instance part="H2" gate="G$1" x="40.64" y="-25.4" smashed="yes">
-<attribute name="NAME" x="42.672" y="-24.8158" size="1.778" layer="95"/>
-<attribute name="VALUE" x="42.672" y="-27.8638" size="1.778" layer="96"/>
+<instance part="H2" gate="G$1" x="205.74" y="-48.26" smashed="yes">
+<attribute name="NAME" x="207.772" y="-47.6758" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.772" y="-50.7238" size="1.778" layer="96"/>
 </instance>
-<instance part="H3" gate="G$1" x="40.64" y="-33.02" smashed="yes">
-<attribute name="NAME" x="42.672" y="-32.4358" size="1.778" layer="95"/>
-<attribute name="VALUE" x="42.672" y="-35.4838" size="1.778" layer="96"/>
+<instance part="H3" gate="G$1" x="205.74" y="-55.88" smashed="yes">
+<attribute name="NAME" x="207.772" y="-55.2958" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.772" y="-58.3438" size="1.778" layer="96"/>
 </instance>
-<instance part="H4" gate="G$1" x="40.64" y="-40.64" smashed="yes">
-<attribute name="NAME" x="42.672" y="-40.0558" size="1.778" layer="95"/>
-<attribute name="VALUE" x="42.672" y="-43.1038" size="1.778" layer="96"/>
+<instance part="H4" gate="G$1" x="205.74" y="-63.5" smashed="yes">
+<attribute name="NAME" x="207.772" y="-62.9158" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.772" y="-65.9638" size="1.778" layer="96"/>
+</instance>
+<instance part="P1" gate="G$1" x="45.72" y="-25.4" smashed="yes">
+<attribute name="NAME" x="43.18" y="-22.86" size="1.778" layer="95"/>
+<attribute name="VALUE" x="43.18" y="-31.75" size="1.778" layer="96"/>
+</instance>
+<instance part="P+10" gate="VCC" x="38.1" y="-20.32" smashed="yes">
+<attribute name="VALUE" x="35.56" y="-22.86" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AGND30" gate="VR1" x="38.1" y="-33.02" smashed="yes">
+<attribute name="VALUE" x="35.56" y="-35.56" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11823,6 +11872,12 @@ Source: 3M</description>
 <wire x1="30.48" y1="-76.2" x2="33.02" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="33.02" y="-76.2"/>
 </segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="-27.94" x2="38.1" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="AGND30" gate="VR1" pin="AGND"/>
+<wire x1="38.1" y1="-27.94" x2="38.1" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -11876,6 +11931,12 @@ Source: 3M</description>
 <pinref part="P+9" gate="VCC" pin="VCC"/>
 <pinref part="R30" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="-55.88" x2="40.64" y2="-58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+10" gate="VCC" pin="VCC"/>
+<wire x1="38.1" y1="-22.86" x2="38.1" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="P1" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="-25.4" x2="40.64" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I5" class="0">
