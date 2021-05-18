@@ -2,3 +2,7 @@
 *.l#*
 *.b#*
 *.s#*
+.pio
+.pioenvs
+.piolibdeps
+.vscode
